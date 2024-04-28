@@ -1,4 +1,5 @@
 "use client"
+import Header from "@/component/Header";
 import { useState } from "react";
 
 export default function AuthLayout({
@@ -10,6 +11,7 @@ export default function AuthLayout({
   return (
     <>
       <div>
+        <Header/>
         <input
           type="text"
           placeholder="enter name"
